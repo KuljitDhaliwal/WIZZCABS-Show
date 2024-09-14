@@ -5,29 +5,29 @@ document.addEventListener('DOMContentLoaded', () => {
         }, 0)
     })
     //Path Name
-    let currentPath = window.location.pathname;
-    let allPaths = [
-        '/',
-        '/index.html',
-        '/about.html',
-        '/contact.html',
-        '/services.html',
-        '/booking.html',
-        '/airport-transfer.html',
-        '/baby-capsules.html',
-        '/corporate-transfer.html',
-        '/fifo-transfer.html',
-        '/parcel-delivery.html',
-        '/perth-taxi-van.html',
-        '/social-events.html',
-        '/special-occasion.html',
-        '/tour.html',
-        '/wheelchair-transfer.html',
-        '/not-found.html',
-    ];
-    if (!allPaths.includes(currentPath)) {
-        window.location.href = '/not-found.html';
-    }
+    // let currentPath = window.location.pathname;
+    // let allPaths = [
+    //     '/',
+    //     '/index.html',
+    //     '/about.html',
+    //     '/contact.html',
+    //     '/services.html',
+    //     '/booking.html',
+    //     '/airport-transfer.html',
+    //     '/baby-capsules.html',
+    //     '/corporate-transfer.html',
+    //     '/fifo-transfer.html',
+    //     '/parcel-delivery.html',
+    //     '/perth-taxi-van.html',
+    //     '/social-events.html',
+    //     '/special-occasion.html',
+    //     '/tour.html',
+    //     '/wheelchair-transfer.html',
+    //     '/not-found.html',
+    // ];
+    // if (!allPaths.includes(currentPath)) {
+    //     window.location.href = '/index.html';
+    // }
 
 
 
